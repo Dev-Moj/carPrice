@@ -1,8 +1,11 @@
 beautifulsoup4==4.12.2
 certifi==2023.11.17
 charset-normalizer==3.3.2
+dnspython==2.4.2
 idna==3.6
 peewee==3.17.0
+persian-tools==0.0.11
+pymongo==4.6.1
 requests==2.31.0
 setuptools==69.0.2
 soupsieve==2.5
