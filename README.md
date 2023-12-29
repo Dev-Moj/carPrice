@@ -4,11 +4,11 @@
 This project is a car pricing system that utilizes data from APIs and web scraping to gather information about cars, stores the data in a MongoDB database, and employs machine learning to calculate the price of cars based on the input data.
 
 ## Components
-1. **Data Scraping**: The project uses the `CarDataScraper` class to scrape car data from the Divar API and web pages. The data includes details such as title, token, price, and other relevant information.
+1. **Data Scraping**: The project uses the `CarDataScraper` class to scrape car data from the x-site API and web pages. The data includes details such as title, token, price, and other relevant information.
 
 2. **MongoDB Database**: The scraped data is stored in a MongoDB database named `carPricedb` with a collection named `cars`. The `pymongo` library is used to interact with the database.
 
-3. **Web Scraping**: The `BeautifulSoup` library is employed to extract specific details from the HTML content of car posts on the Divar website.
+3. **Web Scraping**: The `BeautifulSoup` library is employed to extract specific details from the HTML content of car posts on the x-site website.
 
 4. **Data Preprocessing**: The extracted data is processed and converted to a suitable format for storage in the MongoDB database.
 
@@ -35,7 +35,7 @@ This project is a car pricing system that utilizes data from APIs and web scrapi
    - Implement machine learning algorithms to calculate the price of cars based on the stored data.
 
 ## Notes
-- The project currently scrapes data from the Divar API and website, storing it in a MongoDB database. However, the machine learning component for calculating car prices is yet to be implemented.
+- The project currently scrapes data from the x-site API and website, storing it in a MongoDB database. However, the machine learning component for calculating car prices is yet to be implemented.
 
 - Make sure to handle exceptions appropriately, especially during web scraping, to ensure the robustness of the program.
 

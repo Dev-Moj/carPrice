@@ -116,6 +116,6 @@ class CarDataScraper:
 
 
 
-scraper = CarDataScraper('https://api.divar.ir/v8/web-search/12/cars', 'https://divar.ir')
+scraper = CarDataScraper()
 scraper.scrape_data(1)
 # scraper.learning()
