@@ -205,3 +205,8 @@ class CarDataScraper:
         #     X.append(list(pr.values()))
         #     Y.append(list(i.values())[-2])
         # pprint(X)
+
+
+scraper = CarDataScraper()
+scraper.scrape_data(1)
+scraper.learning()
